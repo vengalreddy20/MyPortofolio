@@ -427,6 +427,9 @@ body{
         text-transform: uppercase;
         margin: 15px 0px;
     }
+    .project-wrapper .each-project{
+        margin-left: 50px;
+    }
     .project-wrapper .each-project h6{
         font-size: 1.3rem;
         margin-bottom: 15px;
