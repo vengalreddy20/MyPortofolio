@@ -419,7 +419,7 @@ body{
     }
     .project-wrapper{
         grid-template-columns: repeat(2,1fr);
-        grid-column-gap: 20px;
+        grid-column-gap: 10px;
         
     }
     .project-wrapper .each-project h3{
@@ -428,7 +428,7 @@ body{
         margin: 15px 0px;
     }
     .project-wrapper .each-project{
-        margin-left: 50px;
+        margin-left: 70px;
     }
     .project-wrapper .each-project h6{
         font-size: 1.3rem;
