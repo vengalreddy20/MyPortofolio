@@ -1,0 +1,469 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.hero-image{
+    background: url(images/hero-desk-bg-2.jpeg);
+    background-size: cover;
+    background-position: top center;
+}
+.hero-container h1{
+    font-size: 1.5rem;
+    width: fit-content;
+    color: #fff;
+    display: block;
+    line-height: 2rem;
+}
+.hero-container h1 span{
+    color:#9b2335;
+}
+.hero-container a{
+    text-decoration: none;
+    
+}
+.hero-container .port-button{
+    display: inline-block;
+    font-size: 1rem;
+    color: white;
+    padding: 10px 10px ;
+    border: 2px solid crimson;
+    background-color: transparent;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    border-radius: 7px;
+    
+}
+.hero-container .port-button:hover{
+    background-color: crimson;
+    color: white;
+}
+.hero-image .hero-container{
+    max-width: 1200px;
+    padding: 0 50px;
+    margin: 0 auto;
+    justify-content: flex-start;
+
+}
+.about .about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 20px 0px;
+    text-align: center;
+
+}
+.about .about-container .left img{
+    width: 250px;
+    height: 360px;
+    text-align: center;
+}
+.about .about-container .right h1{
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.about .about-container .right h1 span{
+    color: crimson;
+}
+.about .about-container .right h3{
+    font-size: 0.9rem;
+    margin: 5px 0px;
+    letter-spacing: .1rem;
+}
+.about .about-container .right p{
+    font-size: .9rem;
+    margin-top: 10px;
+    line-height: 1.3rem;
+}
+.about .about-container .right a{
+    text-decoration: none;
+}
+.about .about-container .right .cv-button{
+    display: inline-block;
+    font-size: 1rem;
+    color: crimson;
+    padding: 10px 10px ;
+    border: 2px solid crimson;
+    background-color: transparent;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    margin-top:10px;
+    
+}
+.about .about-container .right .cv-button:hover{
+    color: white;
+    background-color: crimson;
+}
+.skills{
+    background-color:#333;
+    height: 37vh;
+    width: 100%;
+    
+}
+.skills-container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-top: 10px;
+
+
+}
+.skills-container h1 span{
+    color: crimson;
+}
+.skill-type{
+    font-size: 0.9rem;
+    width: 500px;
+    padding: 0px 50px;
+    margin-top: 20px;
+    color:crimson;
+    list-style: none;
+    
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 7px;
+    width: 60%;
+    border: 1px solid rgba(0,0,0,0.3);
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #2187e7b3;
+    margin: 16px 0px;
+}
+.bar span{
+    height: 7px;
+    float: left;
+    background: #2187e7b3;
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+.css{
+    width: 60%;
+    animation: css 2s;
+}
+.javascript{
+    width: 30%;
+    animation: javascript 2s;
+}
+.projects{
+    text-align: center;
+    margin: 20px 0px;
+}
+.projects-container h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+
+}
+.projects-container h1 span{
+    color: crimson;
+}
+.project-wrapper{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 15px 0px;
+    grid-row-gap: 15px;
+}
+.project-wrapper .each-project{
+    background-color:rgb(247, 202, 201);
+    max-width: 600px;
+
+}
+.project-wrapper .each-project h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.project-wrapper .each-project h6{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.project-wrapper .each-project p{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.contact{
+    width: 100%;
+}
+.contact-heading h1{
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.contact-heading h1 span{
+    color: crimson;
+}
+.contact-info .box .icon{
+   height: 30px;
+   background: crimson;
+   font-size: 1.3rem;
+   border-radius: 50%;
+   text-align: center;
+   margin-bottom: 10px;
+   max-width: 30px;
+}
+.contact-info .box .text h3{
+    font-size: 0.7rem;
+    
+}
+.contact-info .box .text p{
+    font-size: 0.6rem;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+    margin: 20px 15px;
+}
+.follow{
+    font-size: 1.1rem;
+    margin: 0px 20px;
+}
+.social-fig{
+    margin: 5px 20px;
+    font-size: 1.5rem;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+
+}
+@media(min-width:768px){
+    .hero-container h1{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    .hero-container .port-button{
+        font-size: 1.9rem;
+        letter-spacing: .2rem;
+        padding: 15px 30px;
+    }
+    .about .about-container{
+        flex-direction: row;
+    }
+    .about .about-container .left img{
+        width: 350px;
+        height: 400px;
+    }
+    .about .about-container .right{
+        text-align: left;
+        padding: 30px;
+    }
+    .about .about-container .right h1{
+        font-size: 2.5rem;
+    }
+    .about .about-container .right h3{
+        font-size: 1rem;
+        margin: 10px 0px;
+    }
+    .about .about-container .right p{
+        margin-bottom: 20px;
+    }
+    .skills{
+        height: 43vh;
+    }
+    .skills-container h1{
+        font-size: 2.5rem;
+    }
+    .skill-type{
+        font-size: 1.1rem;
+        padding: 0px 90px;
+    }
+    .bar{
+        width: 100%;
+        
+    }
+    .projects-container h1{
+        font-size: 2.5rem;
+        padding: 20px 0px;
+    }
+    .project-wrapper{
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 10px;
+    }
+    .contact-heading h1{
+        font-size: 2.5rem;
+    }
+    .contact-info .box .icon{
+        height: 50px;
+        max-width: 50px;
+        font-size: 2.3rem;margin-left: 40px;
+    }
+    .contact-info .box .text h3{
+        font-size: 1.2rem;
+        padding: 10px 0px;
+        margin-left: 40px;
+        
+    }
+    .contact-info .box .text p{
+        font-size: 1rem;
+        margin-left: 40px;
+    }
+    .follow{
+        font-size: 1.7rem;
+        margin: 0px 50px;
+    }
+    .social-fig{
+        margin: 10px 50px;
+        font-size: 2.3rem;
+    }
+    .social-fig a{
+        margin-left: 7px;
+    }
+    
+
+}
+@media(min-width:1024px){
+    .about .about-container .left img{
+        width: 450px;
+        height: 600px;
+    }
+    .about .about-container .right{
+        text-align: left;
+        padding: 50px;
+    }
+    .about .about-container .right h1{
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    .about .about-container .right h3{
+        font-size: 1.5rem;
+        margin: 10px 0px;
+    }
+    .about .about-container .right p{
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        line-height: 1.9rem;
+    }
+    .about .about-container .right .cv-button{
+        font-size: 1.7rem;
+        margin: 20px 0px;
+    }
+    .skills{
+        height: 43vh;
+    }
+    .skills-container h1{
+        font-size: 3rem;
+        margin: 20px 0px;
+        padding-top: 20px;
+    }
+    .skill-type{
+        font-size: 1.5rem;
+        padding: 10px 130px;
+    }
+    .bar{
+        width: 50vw;
+        height: 10px;
+        box-shadow: 0 0 10px #2187e7b3;
+        margin: 20px 0px;
+        
+    }
+    .bar span{
+        height: 10px;
+    }
+    .projects-container h1{
+        font-size: 3rem;
+        padding: 20px 0px;
+    }
+    .project-wrapper{
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 10px;
+    }
+    .project-wrapper .each-project h3{
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        margin: 15px 0px;
+    }
+    .project-wrapper .each-project h6{
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+        color: crimson;
+    }
+    .project-wrapper .each-project p{
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+    .contact-heading h1{
+        font-size: 3rem;
+    }
+    .contact-info .box .icon{
+        height: 100px;
+        max-width: 100px;
+        font-size: 5rem;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    .contact-info .box .text h3{
+        font-size: 1.7rem;
+        padding: 10px 0px;
+        margin-left: 80px;
+        
+    }
+    .contact-info .box .text p{
+        font-size: 1.5rem;
+        margin-left: 80px;
+    }
+    .follow{
+        font-size: 2.2rem;
+        margin: 0px 90px;
+    }
+    .social-fig{
+        margin: 10px 90px;
+        font-size: 2.7rem;
+    }
+    .social-fig a{
+        margin-left: 9px;
+    }
+
+}
