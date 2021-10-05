@@ -11,6 +11,25 @@ body{
     width: 78vh;
 
 }
+/* #header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+}
+#header .header{
+    background-color: rgba(31,30,30,0.24);
+}
+.nav-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-list ul li a{
+    font-size: 20px;
+    list-style: none;
+} */
 
 .hero-container{
     display: flex;
@@ -124,7 +143,7 @@ body{
 }
 .skills{
     background-color:#333;
-    height: 37vh;
+    height: 40vh;
     width: 100%;
     
 }
