@@ -5,14 +5,18 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    width: 100%;
+    width: 100vw;
+}
+.whole-container{
+    width: 78vh;
+
 }
 
 .hero-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 .hero-image{
@@ -170,7 +174,7 @@ body{
     animation: css 2s;
 }
 .javascript{
-    width: 30%;
+    width: 50%;
     animation: javascript 2s;
 }
 .projects{
@@ -283,6 +287,10 @@ body{
 
 }
 @media(min-width:768px){
+    .whole-container{
+        width: 120vh;
+    
+    }
     .hero-container h1{
         font-size: 4rem;
         line-height: 5rem;
@@ -368,6 +376,10 @@ body{
 
 }
 @media(min-width:1024px){
+    .whole-container{
+        width: 200vh;
+    
+    }
     .about .about-container .left img{
         width: 450px;
         height: 600px;
